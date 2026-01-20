@@ -1,0 +1,41 @@
+import React from 'react'
+
+const AdminTempt = () => {
+  return (
+     <div className="admin-layout">
+      <AdminHeader />
+      <div className="admin-body">
+        <AdminSidebar />
+        <main className="dashboard">
+        </main>
+      </div>
+    </div>
+  )
+}
+
+export default AdminTempt
+
+
+.admin-layout {
+  background: #0b1221;
+  color: #e6e8ef;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-body {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 16px;
+  padding: 16px;
+}
+
+.dashboard {
+  background: #0f172a;
+  border: 1px solid #1f2a44;
+  border-radius: 12px;
+  padding: 16px;
+  display: grid;
+  gap: 16px;
+}

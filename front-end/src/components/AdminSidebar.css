@@ -1,0 +1,46 @@
+.sider {
+  background: #0f172a;
+  border: 1px solid #1f2a44;
+  border-radius: 12px;
+  padding: 12px;
+  min-height: calc(100vh - 80px);
+}
+
+.sider__header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.sider__logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: #1f2a44;
+  display: grid;
+  place-items: center;
+}
+
+.sider__title {
+  font-weight: 600;
+}
+
+.sider__menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sider__item {
+  padding: 10px 8px;
+  border-radius: 8px;
+  color: #cbd5e1;
+  cursor: pointer;
+}
+
+.sider__item:hover {
+  background: #0b1221;
+  color: #e6e8ef;
+}
